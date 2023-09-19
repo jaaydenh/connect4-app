@@ -115,6 +115,7 @@ const checkForWinner = (
   col: number,
   board: Array<cell>
 ) => {
+  // TODO: check for winner diagonal
   return (
     checkWinnerRow(row, player, board) || checkWinnerColumn(col, player, board)
   );
