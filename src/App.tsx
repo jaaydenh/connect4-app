@@ -16,7 +16,7 @@ const Square = ({
   player: number;
   handleMove: (col: number) => void;
 }) => {
-  const color = player === 0 ? 'white' : player === 1 ? 'blue' : 'red';
+  const color = player === 0 ? 'grey' : player === 1 ? 'blue' : 'red';
 
   return (
     <span>
