@@ -137,7 +137,7 @@ function App() {
 
   let gameStatusText = '';
   if (isWin) {
-    gameStatusText = `Player ${playerTurn} Won!!!`;
+    gameStatusText = `Player ${playerTurn} Won!!! Refresh to restart`;
   } else {
     gameStatusText = `Player ${playerTurn}'s Turn`;
   }
